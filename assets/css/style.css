@@ -1,0 +1,388 @@
+/* Main Stylesheet for Conference Proceedings Site */
+/* This file can be edited to change the entire site's appearance */
+
+/* === ROOT VARIABLES === */
+/* Edit these colors to change the site's color scheme in one place */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --text-color: #333;
+  --bg-color: #ffffff;
+  --border-color: #ddd;
+  --nav-bg: #f8f9fa;
+  --nav-hover: #e9ecef;
+  --code-bg: #f5f5f5;
+  --link-color: #3498db;
+  --link-hover: #2980b9;
+}
+
+/* === RESPONSIVE TYPOGRAPHY === */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--bg-color);
+}
+
+/* Mobile-first responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+/* === HEADINGS === */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: var(--secondary-color);
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.6em; }
+  h3 { font-size: 1.3em; }
+  h4 { font-size: 1.1em; }
+}
+
+/* === LINKS === */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* === IMAGES === */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* === LISTS === */
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+/* Nested list indentation */
+ul ul, ol ol {
+  margin: 0.3em 0;
+}
+
+/* === NAVIGATION BUTTONS === */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em 0 2em 0;
+  padding: 1em;
+  background-color: var(--nav-bg);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  gap: 10px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  flex: 1;
+}
+
+.nav-button:hover {
+  background-color: var(--link-hover);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.nav-button.home {
+  background-color: var(--primary-color);
+  flex: 0.8;
+}
+
+.nav-button.home:hover {
+  background-color: #1a252f;
+}
+
+.nav-button.disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Mobile navigation stack */
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    width: 100%;
+    flex: none;
+  }
+}
+
+/* === COLLAPSIBLE SECTIONS (Details/Summary) === */
+details {
+  margin: 1em 0;
+  padding: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+details[open] {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--secondary-color);
+  padding: 0.75em 1em;
+  background-color: var(--nav-bg);
+  border-radius: 5px;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  list-style: none; /* Remove default marker */
+}
+
+/* Remove default disclosure triangle */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover {
+  background-color: var(--nav-hover);
+}
+
+/* Custom arrow indicator - positioned at start */
+summary::before {
+  content: "▶ ";
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Indent the content inside details */
+details > *:not(summary) {
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* First element after summary needs top padding */
+details[open] > summary + * {
+  padding-top: 1em;
+}
+
+/* === CODE AND PREFORMATTED TEXT === */
+code {
+  background-color: var(--code-bg);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+  color: var(--accent-color);
+}
+
+pre {
+  background-color: var(--code-bg);
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  color: var(--text-color);
+}
+
+/* === BLOCKQUOTES === */
+blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid var(--secondary-color);
+  background-color: #f9f9f9;
+  font-style: italic;
+  color: #555;
+}
+
+/* === TABLES === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (min-width: 769px) {
+  table {
+    display: table;
+  }
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* === HORIZONTAL RULES === */
+hr {
+  border: none;
+  border-top: 2px solid var(--border-color);
+  margin: 2em 0;
+}
+
+/* === EMPHASIS === */
+strong, b {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+em, i {
+  font-style: italic;
+  color: #555;
+}
+
+/* === PRINT STYLES === */
+@media print {
+  .navigation {
+    display: none;
+  }
+  
+  body {
+    max-width: 100%;
+    color: black;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+  
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+
+/* === ACCESSIBILITY === */
+/* Focus styles for keyboard navigation */
+a:focus, button:focus, summary:focus {
+  outline: 3px solid var(--secondary-color);
+  outline-offset: 2px;
+}
+
+/* Skip to content link (for screen readers) */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary-color);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* === UTILITY CLASSES === */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-1 { margin-top: 1em; }
+.mt-2 { margin-top: 2em; }
+.mb-1 { margin-bottom: 1em; }
+.mb-2 { margin-bottom: 2em; }
+
+/* === RESPONSIVE IMAGES === */
+@media (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+# Jekyll Configuration for Conference Proceedings Site
+
+title: "Comunicación Política en la era de la IA"
+description: "Ciclo de conferencias - Puerto Rico, Febrero 2025"
+lang: es
+
+# Theme
+theme: jekyll-theme-minimal
+# Alternative themes you can try:
+# theme: jekyll-theme-cayman
+# theme: jekyll-theme-slate
+# theme: jekyll-theme-tactile
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Permalinks
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Site settings
+show_downloads: false
+google_analytics: # Add your GA tracking ID if needed
+
+# Navigation (optional - for custom themes)
+navigation:
+  - title: Inicio
+    url: /
+  - title: Lunes 23
+    url: /lunes-23
+  - title: Martes 24
+    url: /martes-24
+  - title: Miércoles 25
+    url: /miercoles-25
+  - title: Jueves 26
+    url: /jueves-26
+  - title: Resúmenes
+    url: /resumenes
+  - title: Semblanzas
+    url: /semblanzas
+  - title: Recursos
+    url: /recursos
