@@ -87,7 +87,7 @@ Espacio para arte o auspicio
 </details>
 
 <div class="navigation">
-  <a href="/miercoles-25" class="nav-button prev">← Miércoles 25 de febrero</a>
-  <a href="/index" class="nav-button home">🏠 Inicio</a>
-  <a href="/resumenes" class="nav-button next">Resúmenes de presentaciones →</a>
+  <a href="{{ site.baseurl }}/miercoles-25" class="nav-button prev">← Miércoles 25 de febrero</a>
+  <a href="{{ site.baseurl }}/index" class="nav-button home">🏠 Inicio</a>
+  <a href="{{ site.baseurl }}/resumenes" class="nav-button next">Resúmenes de presentaciones →</a>
 </div>

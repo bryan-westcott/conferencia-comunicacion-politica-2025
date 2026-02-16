@@ -1309,7 +1309,7 @@ los medios de servicio público en América Latina y el Caribe.
 </details>
 
 <div class="navigation">
-  <a href="/resumenes" class="nav-button prev">← Resúmenes</a>
-  <a href="/index" class="nav-button home">🏠 Inicio</a>
-  <a href="/recursos" class="nav-button next">Recursos bibliográficos →</a>
+  <a href="{{ site.baseurl }}/resumenes" class="nav-button prev">← Resúmenes</a>
+  <a href="{{ site.baseurl }}/index" class="nav-button home">🏠 Inicio</a>
+  <a href="{{ site.baseurl }}/recursos" class="nav-button next">Recursos bibliográficos →</a>
 </div>

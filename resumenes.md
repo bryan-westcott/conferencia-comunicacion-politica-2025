@@ -887,7 +887,7 @@ digital.
 ---
 
 <div class="navigation">
-  <a href="/jueves-26" class="nav-button prev">← Jueves 26 de febrero</a>
-  <a href="/index" class="nav-button home">🏠 Inicio</a>
-  <a href="/semblanzas" class="nav-button next">Semblanzas de participantes →</a>
+  <a href="{{ site.baseurl }}/jueves-26" class="nav-button prev">← Jueves 26 de febrero</a>
+  <a href="{{ site.baseurl }}/index" class="nav-button home">🏠 Inicio</a>
+  <a href="{{ site.baseurl }}/semblanzas" class="nav-button next">Semblanzas de participantes →</a>
 </div>

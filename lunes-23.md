@@ -284,7 +284,7 @@ consciente de su impacto social.
 </details>
 
 <div class="navigation">
-  <a href="/index" class="nav-button prev">← Inicio</a>
-  <a href="/index" class="nav-button home">🏠 Inicio</a>
-  <a href="/martes-24" class="nav-button next">Martes 24 de febrero →</a>
+  <a href="{{ site.baseurl }}/index" class="nav-button prev">← Inicio</a>
+  <a href="{{ site.baseurl }}/index" class="nav-button home">🏠 Inicio</a>
+  <a href="{{ site.baseurl }}/martes-24" class="nav-button next">Martes 24 de febrero →</a>
 </div>

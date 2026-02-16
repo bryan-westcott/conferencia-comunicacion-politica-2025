@@ -10,36 +10,36 @@
 
 ## Programa por Día
 
-### [Lunes 23 de febrero](/lunes-23)
+### [Lunes 23 de febrero]({{ site.baseurl }}/lunes-23)
 - **Mañana:** UPR-Río Piedras
-  - [Palabras de bienvenida - Dra. Mayra Vélez Serrano](/lunes-23)
+  - [Palabras de bienvenida - Dra. Mayra Vélez Serrano]({{ site.baseurl }}/lunes-23)
   - Conferencia Magistral: Dr. Martín Echeverría
 - **Noche:** Colegio de Abogados y Abogadas
   - Panel: Aspectos legales y éticos de la IA
 
-### [Martes 24 de febrero](/martes-24)
+### [Martes 24 de febrero]({{ site.baseurl }}/martes-24)
 - **Día:** Universidad del Sagrado Corazón
   - Presentaciones de investigación
   - Sesión de posters estudiantiles
 - **Noche:** Librería Norberto, Plaza Las Américas
   - Conversatorio y presentación de libros
 
-### [Miércoles 25 de febrero](/miercoles-25)
+### [Miércoles 25 de febrero]({{ site.baseurl }}/miercoles-25)
 - **Mañana:** UPR-Río Piedras
   - Presentaciones de investigación
 - **Tarde:** Facultad de Derecho, UIA-Hato Rey
   - Panel multidisciplinario
 
-### [Jueves 26 de febrero](/jueves-26)
+### [Jueves 26 de febrero]({{ site.baseurl }}/jueves-26)
 - **UPR-Humacao**
   - Presentaciones finales
   - Clausura del ciclo
 
 ## Recursos Académicos
 
-- [Resúmenes de presentaciones](/resumenes) - Abstracts de todas las conferencias
-- [Semblanzas de participantes](/semblanzas) - Biografías de ponentes y panelistas
-- [Recursos bibliográficos](/recursos) - Material de referencia y enlaces
+- [Resúmenes de presentaciones]({{ site.baseurl }}/resumenes) - Abstracts de todas las conferencias
+- [Semblanzas de participantes]({{ site.baseurl }}/semblanzas) - Biografías de ponentes y panelistas
+- [Recursos bibliográficos]({{ site.baseurl }}/recursos) - Material de referencia y enlaces
 
 ---
 
@@ -197,6 +197,6 @@ una academia relevante, comprometida y abierta al mundo.
 
 <div class="navigation">
   <span class="nav-button prev disabled">← Anterior</span>
-  <a href="/index" class="nav-button home">🏠 Inicio</a>
-  <a href="/lunes-23" class="nav-button next">Lunes 23 de febrero →</a>
+  <a href="{{ site.baseurl }}/index" class="nav-button home">🏠 Inicio</a>
+  <a href="{{ site.baseurl }}/lunes-23" class="nav-button next">Lunes 23 de febrero →</a>
 </div>

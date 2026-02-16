@@ -33,7 +33,7 @@ español:
 ---
 
 <div class="navigation">
-  <a href="/semblanzas" class="nav-button prev">← Semblanzas</a>
-  <a href="/index" class="nav-button home">🏠 Inicio</a>
+  <a href="{{ site.baseurl }}/semblanzas" class="nav-button prev">← Semblanzas</a>
+  <a href="{{ site.baseurl }}/index" class="nav-button home">🏠 Inicio</a>
   <span class="nav-button next disabled">Siguiente →</span>
 </div>
