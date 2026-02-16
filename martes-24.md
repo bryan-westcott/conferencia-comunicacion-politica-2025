@@ -127,7 +127,7 @@ desafíos*, de **Martín Echeverría y Rubén González Macías
 </details>
 
 <div class="navigation">
-  <a href="lunes-23.md" class="nav-button prev">← Lunes 23 de febrero</a>
-  <a href="index.md" class="nav-button home">🏠 Inicio</a>
-  <a href="miercoles-25.md" class="nav-button next">Miércoles 25 de febrero →</a>
+  <a href="/lunes-23" class="nav-button prev">← Lunes 23 de febrero</a>
+  <a href="/index" class="nav-button home">🏠 Inicio</a>
+  <a href="/miercoles-25" class="nav-button next">Miércoles 25 de febrero →</a>
 </div>

@@ -213,7 +213,7 @@ la historia política de Puerto Rico.
 ---
 
 <div class="navigation">
-  <a href="martes-24.md" class="nav-button prev">← Martes 24 de febrero</a>
-  <a href="index.md" class="nav-button home">🏠 Inicio</a>
-  <a href="jueves-26.md" class="nav-button next">Jueves 26 de febrero →</a>
+  <a href="/martes-24" class="nav-button prev">← Martes 24 de febrero</a>
+  <a href="/index" class="nav-button home">🏠 Inicio</a>
+  <a href="/jueves-26" class="nav-button next">Jueves 26 de febrero →</a>
 </div>

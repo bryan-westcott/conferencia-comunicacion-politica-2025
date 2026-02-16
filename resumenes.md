@@ -887,7 +887,7 @@ digital.
 ---
 
 <div class="navigation">
-  <a href="jueves-26.md" class="nav-button prev">← Jueves 26 de febrero</a>
-  <a href="index.md" class="nav-button home">🏠 Inicio</a>
-  <a href="semblanzas.md" class="nav-button next">Semblanzas de participantes →</a>
+  <a href="/jueves-26" class="nav-button prev">← Jueves 26 de febrero</a>
+  <a href="/index" class="nav-button home">🏠 Inicio</a>
+  <a href="/semblanzas" class="nav-button next">Semblanzas de participantes →</a>
 </div>

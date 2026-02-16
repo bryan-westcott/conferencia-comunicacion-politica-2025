@@ -10,36 +10,36 @@
 
 ## Programa por Día
 
-### [Lunes 23 de febrero](lunes-23.md)
+### [Lunes 23 de febrero](/lunes-23)
 - **Mañana:** UPR-Río Piedras
-  - [Palabras de bienvenida - Dra. Mayra Vélez Serrano](lunes-23.md)
+  - [Palabras de bienvenida - Dra. Mayra Vélez Serrano](/lunes-23)
   - Conferencia Magistral: Dr. Martín Echeverría
 - **Noche:** Colegio de Abogados y Abogadas
   - Panel: Aspectos legales y éticos de la IA
 
-### [Martes 24 de febrero](martes-24.md)
+### [Martes 24 de febrero](/martes-24)
 - **Día:** Universidad del Sagrado Corazón
   - Presentaciones de investigación
   - Sesión de posters estudiantiles
 - **Noche:** Librería Norberto, Plaza Las Américas
   - Conversatorio y presentación de libros
 
-### [Miércoles 25 de febrero](miercoles-25.md)
+### [Miércoles 25 de febrero](/miercoles-25)
 - **Mañana:** UPR-Río Piedras
   - Presentaciones de investigación
 - **Tarde:** Facultad de Derecho, UIA-Hato Rey
   - Panel multidisciplinario
 
-### [Jueves 26 de febrero](jueves-26.md)
+### [Jueves 26 de febrero](/jueves-26)
 - **UPR-Humacao**
   - Presentaciones finales
   - Clausura del ciclo
 
 ## Recursos Académicos
 
-- [Resúmenes de presentaciones](resumenes.md) - Abstracts de todas las conferencias
-- [Semblanzas de participantes](semblanzas.md) - Biografías de ponentes y panelistas
-- [Recursos bibliográficos](recursos.md) - Material de referencia y enlaces
+- [Resúmenes de presentaciones](/resumenes) - Abstracts de todas las conferencias
+- [Semblanzas de participantes](/semblanzas) - Biografías de ponentes y panelistas
+- [Recursos bibliográficos](/recursos) - Material de referencia y enlaces
 
 ---
 
@@ -197,6 +197,6 @@ una academia relevante, comprometida y abierta al mundo.
 
 <div class="navigation">
   <span class="nav-button prev disabled">← Anterior</span>
-  <a href="index.md" class="nav-button home">🏠 Inicio</a>
-  <a href="lunes-23.md" class="nav-button next">Lunes 23 de febrero →</a>
+  <a href="/index" class="nav-button home">🏠 Inicio</a>
+  <a href="/lunes-23" class="nav-button next">Lunes 23 de febrero →</a>
 </div>
